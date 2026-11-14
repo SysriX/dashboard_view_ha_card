@@ -1,5 +1,9 @@
 # Dashboard View Card
 
+![Dashboard View Card preview](docs/images/preview.png)
+
+*Example: a doorbell popup (mock dialog) whose content comes from another dashboard via `dashboard-view-card`; the embedded cards are the Door Status and Ring Intercom Talk cards. Rendered with example data.*
+
 Two small helper cards in one file:
 
 - **`custom:dashboard-view-card`** – renders the cards of one view of *another* dashboard. Designed for Browser Mod popups: the popup shows exactly what is configured in the target dashboard, so there is only one place to maintain.
